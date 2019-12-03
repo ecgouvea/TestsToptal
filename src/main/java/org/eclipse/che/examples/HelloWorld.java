@@ -10,5 +10,10 @@ public class HelloWorld {
         System.out.println("Hello World " + a + "!");
         System.out.println("Alo mundo " + a + "!");
         System.out.println("!");
+        new HelloWorld().solution();
+    }
+
+    public void solution() {
+        System.out.println("!");
     }
 }
